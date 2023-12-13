@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    color:aquamarine;
+    background-color: black;
+    
+    /*height: 300vh;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+    
+} 
+.container{
+    max-width: 50rem;
+    margin: 50px auto;
+    padding: 0px 2rem;
+    border: 2px solid;
+    font-family: Georgia;
+
+}
+.head{
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+
+.names{
+    display:flex;
+    flex-flow:row;
+    gap: 10px;
+    
+}
+
+
+   
+.names input{
+    width: 150px;
+    height: 20px;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid #000000;
+}
+.names input:last-child{
+    margin-right: 0;
+}
+.Address-header input{
+    width: 70%;
+
+}
+.Butt{
+    display:block;
+    background-color: black;
+    color: white;
+    padding: 5px auto;
+    margin: 5px auto;
+}
+input:focus{
+    border: 2px dashed black;
+}
+label{
+    font-size: 10px;
+}
+input:hover{
+    position: relative;
+    left: 2px;
+}
+a{
+    color: aqua;
+    margin: 3px auto;
+    padding: 2px 2px;
+    text-decoration: underline;
+    
+    
+}
+a:hover{
+    color: rgb(7, 66, 7);
+    border: 1px dashed white;
+}
+.send{
+    background-color:azure;
+}
+.send input:hover{
+    border: 2px solid green;
+    background-color: green;
+}
